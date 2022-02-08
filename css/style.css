@@ -4,6 +4,11 @@ body {
 	color: #000;
 }
 
+/* canvas{
+	background: rgb(22, 22, 22);
+	z-index: - 10;
+} */
+
 img {
 	max-width: 100%;
 }
@@ -24,7 +29,7 @@ img {
 	width: 100vw;
 	height: 100vh;
 
-	background-image: url('../img/background.jpg');
+	background-image: url('../img/background.webp');
 	background-size: cover;
 	background-position: center;
 }
