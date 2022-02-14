@@ -5,18 +5,15 @@ body {
 
 }
 
-
 img {
 	max-width: 100%;
 }
 
 .container {
-	max-width: 1140px;
+	max-width: 1150px;
 	margin: 0 auto;
-	padding: 0 15px 0 15px;
+	padding: 0 20px;
 }
-
-
 
 .header {
 	position: relative;
@@ -24,7 +21,6 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 600px;
 
 	width: 100vw;
 	height: 100vh; 
@@ -32,6 +28,7 @@ img {
 	background-image: url('../img/1625834392_12-kartinkin-com-p-oboi-struktura-krasivie-14.jpg');
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .header::before{
@@ -45,7 +42,9 @@ img {
 	width: 100%;
 }
 
-
+.heder-title-subtitle{
+	padding: 0 20px;
+}
 
 .header_title {
 	margin: 0;
